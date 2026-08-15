@@ -10,7 +10,7 @@ export const api = createApi({
 
   endpoints: (builder) => ({
     getProducts: builder.query<ProductsResponse, void>({
-      query: () => "/products",
+      query: () => "/products?limit=10",
     }),
   }),
 });

@@ -1,10 +1,16 @@
-import "./Home.css";
+import Header from "../../components/Header/Header";
 
 const Home = () => {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <div className="home-page">
+      <Header />
+
+      <main>
+        <section id="home">
+          <h1>Home</h1>
+        </section>
+      </main>
+    </div>
   );
 };
 
