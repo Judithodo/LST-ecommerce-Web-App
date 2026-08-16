@@ -3,6 +3,7 @@ import Categories from "../../components/Categories/Categories";
 import ProductsSection from "../../components/ProductsSection/ProductsSection";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import FeaturedPosts from "../../components/FeaturedPosts/FeaturedPosts";
+import TestimonialsSection from "../../components/TestimonialsSection/TestimonialsSection";
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
         <ServicesSection />
 
         <FeaturedPosts />
+
+        <TestimonialsSection />
       </main>
     </div>
   );
