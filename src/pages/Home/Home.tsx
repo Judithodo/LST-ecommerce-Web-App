@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import Categories from "../../components/Categories/Categories";
 import ProductsSection from "../../components/ProductsSection/ProductsSection";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
+import FeaturedPosts from "../../components/FeaturedPosts/FeaturedPosts";
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
         <ProductsSection />
 
         <ServicesSection />
+
+        <FeaturedPosts />
       </main>
     </div>
   );
