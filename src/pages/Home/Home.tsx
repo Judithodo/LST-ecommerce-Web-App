@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header";
 import Categories from "../../components/Categories/Categories";
 import ProductsSection from "../../components/ProductsSection/ProductsSection";
+import ServicesSection from "../../components/ServicesSection/ServicesSection";
 
 const Home = () => {
   return (
@@ -9,12 +10,14 @@ const Home = () => {
 
       <main>
         <section id="home">
-          {/* <h1>Home</h1> */}
+          {/* Home content */}
         </section>
 
         <Categories />
 
         <ProductsSection />
+
+        <ServicesSection />
       </main>
     </div>
   );

@@ -9,9 +9,7 @@
   margin: 0 auto;
 }
 
-/* =========================
-   SECTION HEADER
-========================= */
+
 
 .products-section__header {
   text-align: center;
@@ -51,9 +49,6 @@
 }
 
 
-/* =========================
-   PRODUCTS GRID
-========================= */
 
 .products-grid {
   display: grid;
@@ -64,9 +59,6 @@
 }
 
 
-/* =========================
-   LOADING / ERROR STATE
-========================= */
 
 .products-section__state {
   min-height: 300px;
@@ -88,9 +80,7 @@
 }
 
 
-/* =========================
-   TABLET
-========================= */
+
 
 @media (max-width: 1100px) {
   .products-grid {
@@ -99,9 +89,7 @@
 }
 
 
-/* =========================
-   SMALL TABLET
-========================= */
+
 
 @media (max-width: 900px) {
   .products-grid {
@@ -110,9 +98,7 @@
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+
 
 @media (max-width: 768px) {
   .products-section {
