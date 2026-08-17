@@ -14,9 +14,7 @@
 }
 
 
-/* =========================
-   LOAD MORE BUTTON
-========================= */
+
 
 .load-more-button {
   min-width: 220px;
@@ -45,10 +43,6 @@
   color: #ffffff;
 }
 
-
-/* =========================
-   SERVICES HEADER
-========================= */
 
 .services-section__header {
   width: 100%;
@@ -93,9 +87,6 @@
 }
 
 
-/* =========================
-   SERVICES
-========================= */
 
 .services-list {
   width: 100%;
@@ -112,8 +103,28 @@
 .service-item {
   flex: 1;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   text-align: center;
 }
+
+
+
+.service-item__icon {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+
+
 
 .service-item__title {
   margin: 0 0 10px;
@@ -123,7 +134,10 @@
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
+
+  text-align: center;
 }
+
 
 .service-item__description {
   max-width: 260px;
@@ -132,17 +146,13 @@
 
   color: #737373;
 
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   font-weight: 400;
 
   text-align: center;
 }
 
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 900px) {
   .services-list {
@@ -151,9 +161,7 @@
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/*Mobile */
 
 @media (max-width: 768px) {
   .services-section {

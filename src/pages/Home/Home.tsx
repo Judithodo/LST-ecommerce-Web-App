@@ -4,6 +4,8 @@ import ProductsSection from "../../components/ProductsSection/ProductsSection";
 import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import FeaturedPosts from "../../components/FeaturedPosts/FeaturedPosts";
 import TestimonialsSection from "../../components/TestimonialsSection/TestimonialsSection";
+import CTASection from "../../components/CTASection/CTASection";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +26,10 @@ const Home = () => {
         <FeaturedPosts />
 
         <TestimonialsSection />
+
+        <CTASection />
+
+        <Footer />
       </main>
     </div>
   );
